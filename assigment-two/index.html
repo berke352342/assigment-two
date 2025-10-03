@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Album Layout</title>
-  <link rel="stylesheet" href="style.css"> <!-- adding css as always -->
+  <title>Album</title>
+  <link rel="stylesheet" href="style.css"> <!-- adding our css file -->
 </head>
 
 <body>
-  <header>
-    <h1>My Album</h1>
-    <nav>
+  <!-- headerr -->
+  <header class="navbar">
+    <div class="logo">My Site</div>
+    <nav class="menu">
       <a href="#"> Home </a>
-      <a href="#">Features </a>
-      <a href="#">Contact </a>
+      <a href="#"> Features </a>
+      <a href="#"> Contact </a>
     </nav>
   </header>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome to My Album </h2>
-      <p> This is a simple layout build with Flexbox and Grid without bootstrap </p>
-    </section>
+  <!-- hero -->
+  <section class="hero">
+    <h1> Welcome to My Album! </h1>
+    <p>This is a simple website with using Flexbox only </p>
+    <button> Learn More </button>
+  </section>
 
-    <section class="album"> <!-- our cards on the below -->
-      <div class="card">Card 1</div>
-      <div class="card">Card 2</div>
-      <div class="card">Card 3</div>
-      <div class="card">Card 4</div>
-      <div class="card">Card 5</div>
-      <div class="card">Card 6</div>
-    </section>
-  </main>
+  <!-- album part-->
+  <section class="album"> 
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+    <div class="card">Card 4</div>
+    <div class="card">Card 5</div>
+    <div class="card">Card 6</div>
+  </section>
 
-  <footer>
-    <p> &copy; 2025 My beautfiul album </p>
+  <!-- footer -->
+  <footer class="footer">
+    <p>© 2025 My Site, Allrights reserved.</p>
   </footer>
-  
 </body>
 </html>
